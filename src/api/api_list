@@ -1,0 +1,16 @@
+completed:
+
+- GET /admin/variants/[variant_id]/vehicles
+- GET /store/vehicles/[vehicle_engine_id]/products
+- GET /store/vehicles/[vehicle_engine_id]/variants
+
+Vehicle Selector APIs
+- GET /store/vehicles/brands
+- GET /store/vehicles/brands/[brand_id]/models
+- GET /store/vehicles/models/[model_id]/generations
+- GET /store/vehicles/models/[generation_id]/engines
+
+Fitment
+- POST /admin/fitments/bulk
+- POST /admin/fitments
+- DELETE /admin/fitments
