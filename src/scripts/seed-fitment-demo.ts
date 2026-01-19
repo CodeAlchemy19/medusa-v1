@@ -149,7 +149,7 @@ export default async function seedAutomotiveFitment({ container }: ExecArgs) {
           },
         },
       ],
-      additional_data: { variant_id: variant1?.id },
+      variant_id: variant1?.id,
     },
   });
   console.log("✅ Fitment1 seeded successfully");
@@ -168,7 +168,7 @@ export default async function seedAutomotiveFitment({ container }: ExecArgs) {
             },
           },
         ],
-        additional_data: { variant_id: variant2.id },
+        variant_id: variant2?.id,
       },
     });
     console.log("✅ Fitment2 seeded successfully");
